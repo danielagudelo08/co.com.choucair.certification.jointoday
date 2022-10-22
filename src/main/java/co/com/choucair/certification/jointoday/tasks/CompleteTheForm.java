@@ -25,7 +25,7 @@ public class CompleteTheForm implements Task {
         actor.attemptsTo(
                 (Performable) Enter.theValue("Daniel").into(RegisterPage.INPUT_FIRST_NAME),
                 Enter.theValue("Agudelo").into(RegisterPage.INPUT_LAST_NAME),
-                Enter.theValue("daniel323prueba@gmail.com").into(RegisterPage.INPUT_EMAIL_ADDRESS),
+                Enter.theValue("danielprueba323@gmail.com").into(RegisterPage.INPUT_EMAIL_ADDRESS),
                 SelectFromOptions.byVisibleText("March").from(RegisterPage.INPUT_MONTH_OF_BIRTH),
                 SelectFromOptions.byVisibleText("23").from(RegisterPage.INPUT_DAY_OF_BIRTH),
                 SelectFromOptions.byVisibleText("1999").from(RegisterPage.INPUT_YEAR_OF_BIRTH),

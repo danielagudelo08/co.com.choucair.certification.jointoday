@@ -18,7 +18,7 @@ public class Login implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Open.browserOn(loginPage),
                 Click.on(LoginPage.BUTTON_LOGIN),
-                Enter.theValue("daniel323prueba@gmail.com").into(LoginPage.INPUT_USER),
+                Enter.theValue("danielprueba323@gmail.com").into(LoginPage.INPUT_USER),
                 Enter.theValue("Daniel123456789@").into(LoginPage.INPUT_PASSWORD),
                 Click.on(LoginPage.BUTTON_TO_SIG_IN)
 
