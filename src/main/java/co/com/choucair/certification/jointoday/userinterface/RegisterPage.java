@@ -46,6 +46,9 @@ public class RegisterPage extends PageObject {
             Target.the("Where are we going to enter our country")
                     .located(By.cssSelector("#regs_container > div > div:nth-child(2) > div > div.ui-view > div > form > div.form-group-box > div.row > div.col-xs-12.col-sm-12.col-md-6.col-lg-6.location > div:nth-child(4) > div.ui-select > div > div > div.ui-select-match > span"));
 
+    public static final Target BACKGROUND =
+            Target.the("Background of the page")
+                    .located(By.className("container-fluid"));
     public static final Target BUTTON_NEXT_DEVICES =
             Target.the("Button that take us to next devices")
                     .located(By.xpath("//*[@id=\"regs_container\"]/div/div[2]/div/div[2]/div/form/div[2]/div/a/span"));
